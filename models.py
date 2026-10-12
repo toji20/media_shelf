@@ -239,22 +239,21 @@ class Library:
     @staticmethod
     def seed():
         return [
-        Book("Мастер и Маргарита", "М. Булгаков", 1967, 10, pages=480),
-        Book("1984", "Дж. Оруэлл", 1949, 9, pages=328),
-        Book("Преступление и наказание", "Ф. Достоевский", 1866, 10, pages=672),
-        Book("Война и мир", "Л. Толстой", 1869, 10, pages=1225),
+            Book("Мастер и Маргарита", "М. Булгаков", 1967, 10, 480),
+            Book("1984", "Дж. Оруэлл", 1949, 9, 328),
+            Book("Преступление и наказание", "Ф. Достоевский", 1866, 10, 672),
+            Book("Война и мир", "Л. Толстой", 1869, 10, 1225),
 
-        Movie("Начало", "К. Нолан", 2010, 9, duration=148),
-        Movie("Интерстеллар", "К. Нолан", 2014, 10, duration=169),
-        Movie("Зелёная миля", "Ф. Дарабонт", 1999, 10, duration=189),
-        Movie("Побег из Шоушенка", "Ф. Дарабонт", 1994, 10, duration=142),
+            Movie("Начало", "К. Нолан", 2010, 9, 148),
+            Movie("Интерстеллар", "К. Нолан", 2014, 10, 169),
+            Movie("Зелёная миля", "Ф. Дарабонт", 1999, 10, 189),
+            Movie("Побег из Шоушенка", "Ф. Дарабонт", 1994, 10, 142),
 
-        Album("OK Computer", "Radiohead", 1997, 9, tracks=12),
-        Album("The Dark Side of the Moon", "Pink Floyd", 1973, 10, tracks=10),
-        Album("Nevermind", "Nirvana", 1991, 9, tracks=12),
-        Album("Abbey Road", "The Beatles", 1969, 10, tracks=17),
-    ]
-
+            Album("OK Computer", "Radiohead", 1997, 9, 12),
+            Album("The Dark Side of the Moon", "Pink Floyd", 1973, 10, 10),
+            Album("Nevermind", "Nirvana", 1991, 9, 12),
+            Album("Abbey Road", "The Beatles", 1969, 10, 17),
+        ]
 
 @total_ordering
 class SessionRecord(Entity):

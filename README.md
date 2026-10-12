@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="Снимок экрана 2026-10-12 191016" src="https://github.com/user-attachments/assets/07be85f7-0463-4153-9a5d-3c13a03e7691" />
+<img width="1920" height="1080" alt="Снимок экрана 2026-10-12 191638" src="https://github.com/user-attachments/assets/5b9ea94f-f275-4c4a-a059-412c576674d8" />
 # MediaShelf — домашняя медиатека
 
 Десктопное приложение на Python + PySide6 (Qt). Каталог книг, фильмов и альбомов:
